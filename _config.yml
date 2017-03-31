@@ -25,6 +25,18 @@ github_username:  John Hush
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    coderay_line_numbers:  nil
+
 theme: minima
 gems:
   - jekyll-feed
