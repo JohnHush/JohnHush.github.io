@@ -25,6 +25,17 @@ print_hi('Tom')
 int main()
 {
     IplImage * img = cvCreateImage();
+
+}
+
+class boycott
+{
+private:
+	int Julia;
+	char * name;
+public:
+	boycott();
+	~boycott();
 }
 {% endhighlight %}
 
